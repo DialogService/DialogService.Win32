@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DialogService
+namespace DialogService.Win32
 {
     /// <summary>
     /// Functionality to get Win32 platform implementation of dialog service
