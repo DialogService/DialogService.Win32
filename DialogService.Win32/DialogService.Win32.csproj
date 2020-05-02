@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -20,9 +20,9 @@
       <PackagePath></PackagePath>
     </None>
   </ItemGroup>
-
+  
   <ItemGroup>
-    <PackageReference Include="DialogService" Version="0.1.0" />
+    <PackageReference Include="DialogService" Version="0.1.1" />
   </ItemGroup>
 
 </Project>

@@ -9,6 +9,8 @@ namespace DialogService
     /// </summary>
     public class PlatformImplementation : AbstractPlatform
     {
+        public override RuntimePlatform Platform => RuntimePlatform.Windows;
+
         /// <summary>
         /// Gets Win32 dialog service implementation
         /// </summary>
