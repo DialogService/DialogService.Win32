@@ -6,7 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DialogService\DialogService\DialogService.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DialogService" Version="0.1.0" />
   </ItemGroup>
 
 </Project>
