@@ -5,7 +5,7 @@ using System.Text;
 namespace DialogService
 {
     /// <summary>
-    /// Functionality to get Linux platform implementation of dialog service
+    /// Functionality to get Win32 platform implementation of dialog service
     /// </summary>
     public class PlatformImplementation : AbstractPlatform
     {
