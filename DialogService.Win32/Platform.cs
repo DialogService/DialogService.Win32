@@ -16,6 +16,6 @@ namespace DialogService.Win32
         /// Gets Win32 dialog service implementation
         /// </summary>
         /// <returns></returns>
-        public override IDialogService Get() => new Win32.Win32DialogService();
+        public override IDialogService Get() => new Win32DialogService();
     }
 }
