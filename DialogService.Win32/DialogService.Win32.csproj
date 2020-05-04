@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.1.5</Version>
+    <Version>0.2.0</Version>
     <Authors>Yaroslav Kibysh</Authors>
     <Description>Win32 implementation for DialogService</Description>
     <PackageIcon>DialogService Logo.png</PackageIcon>
@@ -21,7 +21,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <PackageReference Include="DialogService" Version="0.2.1" />
+    <PackageReference Include="DialogService" Version="0.3.1" />
   </ItemGroup>
 
 </Project>
