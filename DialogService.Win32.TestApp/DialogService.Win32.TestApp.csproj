@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DialogService.Win32\DialogService.Win32.csproj" />
+    <PackageReference Include="DialogService.TestDialog" Version="0.0.2"/>
+  </ItemGroup>
+
+  <Import Project="../Common.targets"/>
+  
+</Project>
